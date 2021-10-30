@@ -5,7 +5,8 @@
   
 #include <assert.h>
 
-void ex1() 
+char ex1(long a1, long a2, long a3) 
 {
-	//TODO: Your code here
+	a1 += a2;
+	return (a1 == a3);
 }
